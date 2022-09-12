@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
+    <title>Library app</title>
+</head>
+<body>
+    <div class="LibraryApp text-center mt-5 w-75 m-auto">
+        <h1 class = "mb-4">Library App</h1>
+        <div class="search-bar">
+            <input type="text" class = "form-control" placeholder = "add your book name">
+            <input type="text" class = "form-control mt-3" placeholder = "add your book author">
+            <input type="text" class = "form-control mt-3" placeholder = "when book created ?">
+            <button class = "btn btn-warning w-100 mt-3">Add book to list</button>
+        </div>
+        <div class="list mt-5">
+            <table class = "table table-striped text-center">
+                <tr>
+                    <th>Book name</th>
+                    <th>Book author</th>
+                    <th>Date created</th>
+                </tr>
+                <tr>
+                    <td>Clean Code</td>
+                    <td>Robert C. Martin</td>
+                    <td>2001</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src = "bootstrap/bootstrap.bundle.min.js"></script>
+</body>
+</html>
